@@ -2,7 +2,7 @@ A Sample FlightStatus Service
 -------------------
 **Introduction**
 
-This application is a proof of concept for the FlightStatus service which uses [FLIGHTSTATS]*(https://www.flightstats.com) a third party free flight status provider and can be used as a microservice.
+This application is a proof of concept for the FlightStatus service which uses [FLIGHTSTATS](https://www.flightstats.com) a third party free flight status provider and can be used as a microservice.
 
 **Build & Run**
 1. Clone the app 
