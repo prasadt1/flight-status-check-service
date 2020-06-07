@@ -28,15 +28,22 @@ To show some business events, Elastiksearch and Kibana are deployed so the basic
 
 **Screenshots**
 ![Flight Status by a Given flight Data](https://i.ibb.co/dDkHbSR/Flight-Status-Default-Values.png)
+
 The FlightStatus Service check by deafult values: EW 2462 & 2020-06-03
 
+
 ![Flight Status by Default Values](https://i.ibb.co/BcGj60J/A-Desired-Flight-Status-Check.png)
+
 The FlightStatus Service check by the given flight data: EW 9445 & 2020-06-03
 
+
 ![Flight Status that shows another flight service provider information](https://i.ibb.co/c3dssm4/LH-Example.png)
+
 The FlightStatus Service check by another airline flight data: LH 498 & 2020-06-03
 
+
 ![A Simple Kibana Dashboard Showing FlightStatus Service Logs](https://i.ibb.co/tsmnRGR/2020-06-07-23.png)
+
 A Simple Designed Dashboard that shows the situation of Search Results and the Number of Searches
 
    
