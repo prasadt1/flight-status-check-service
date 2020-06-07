@@ -15,7 +15,7 @@ This application is a proof of concept for the FlightStatus service which uses [
   - `flightNo`: the numeric flight number provided [_for example:_ `2462`]
   - `travelDate`: the date of travel [_date format_: `YYYY-MM-DD` - _for example:_ `2020-06-03`]
    
-Note: To test the service, `flightPrefix`, `flightNo` and `travelDate` parameters are set by default values to EW, 2462 and 2020-06-03. So you can easily check the service by heating `http://localhost:8080/flight-status` which automatically returns the JSON of the flight `EW 2462` in `2020-06-03`. However, you can input your desired flight data to check its status.
+Note: To test the service, `flightPrefix`, `flightNo` and `travelDate` parameters are set by default values to EW, 2462 and 2020-06-03. So, you can easily check the service by heating `http://localhost:8080/flight-status` which automatically returns the JSON of the flight `EW 2462` in `2020-06-03`. However, you can input your desired flight data to check its status.
 
 
 **Business Events**
@@ -30,7 +30,7 @@ To show some business events, Elastiksearch and Kibana are deployed so the basic
 
 ![Flight Status by a Given flight Data](https://i.ibb.co/dDkHbSR/Flight-Status-Default-Values.png)
 
-The FlightStatus Service check by deafult values: EW 2462 & 2020-06-03
+The FlightStatus Service check by default values: EW 2462 & 2020-06-03
 
 
 ![Flight Status by Default Values](https://i.ibb.co/BcGj60J/A-Desired-Flight-Status-Check.png)
