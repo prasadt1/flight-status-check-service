@@ -1,5 +1,7 @@
 A Sample FlightStatus Service
 -------------------
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) [![Release](https://img.shields.io/badge/release-v1.0.0.RELEASE-blue)](https://img.shields.io/badge/release-v1.0.0.RELEASE-blue) [![Licence](https://img.shields.io/badge/licence-Apache%202.0-blue)](https://img.shields.io/badge/licence-Apache%202.0-blue)
+
 **Introduction**
 
 This application is a proof of concept for the FlightStatus service which uses [FLIGHTSTATS](https://www.flightstats.com) a third party free flight status provider and can be used as a microservice.
