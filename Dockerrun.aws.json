@@ -1,0 +1,21 @@
+{
+  "AWSEBDockerrunVesion": "1",
+  "Image": {
+    "Name": "tomcat"
+  },
+  "Ports": [
+    {"ContainerPort":  "8080"}
+  ],
+  "Image": {
+    "Name": "elasticsearch"
+  },
+  "Ports": [
+    {"ContainerPort":  "9200"}
+  ],
+  "Image": {
+    "Name": "kibana"
+  },
+  "Ports": [
+    {"ContainerPort":  "5601"}
+  ]
+}

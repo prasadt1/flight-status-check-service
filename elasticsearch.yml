@@ -1,0 +1,6 @@
+cluster.name: "flightstatus-log-cluster"
+node.name: "flightstatus-log"
+http.host: 0.0.0.0
+transport.host: 0.0.0.0
+transport.tcp.port: 9200
+transport.publish_port: 9200
