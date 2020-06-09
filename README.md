@@ -5,6 +5,7 @@ A Sample FlightStatus Service
 **Introduction**
 
 This application is a proof of concept for the FlightStatus service which uses [FLIGHTSTATS](https://www.flightstats.com) a third party free flight status provider and can be used as a microservice.
+The service is developed using Spring Boot and visualizing business events and logs is done using ELK Stack.
 
 **Build & Run**
 1. Clone the app 
