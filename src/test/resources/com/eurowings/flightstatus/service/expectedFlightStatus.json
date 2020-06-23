@@ -1,0 +1,23 @@
+{
+   "id":"595640373603300",
+   "flightPrefix":"EW",
+   "flightNumber":"9825",
+   "flightId":"1039010110",
+   "aircraft":"Airbus A320 (sharklets)",
+   "status":{
+      "map":{
+         "statusDescription":"On time",
+         "statusColor":"green",
+         "lastUpdatedText":"Status Last Updated 2 Minutes Ago",
+         "status":"Departed",
+         "statusCode":"A"
+      }
+   },
+   "departureAirport":"Milano Malpensa Airport",
+   "departureAirportCode":"MXP",
+   "estimatedDepartureDateTime":"2020-06-23T15:00:00.000Z",
+   "arrivalAirport":"Dusseldorf International Airport",
+   "arrivalAirportCode":"DUS",
+   "estimatedArrivalDateTime":"2020-06-23T16:35:00.000Z",
+   "airlineLogo":"https://d3brl4nqahsb3e.cloudfront.net/logos/png/150x50/ew-logo.png"
+}

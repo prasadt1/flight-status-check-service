@@ -1,0 +1,660 @@
+{
+  "data": {
+    "flightId": 1027729736,
+    "flightNote": {
+      "final": true,
+      "canceled": false,
+      "hasDepartedGate": true,
+      "hasDepartedRunway": true,
+      "landed": true,
+      "message": "The flight has landed",
+      "messageCode": "L",
+      "pastExpectedTakeOff": true,
+      "tracking": false,
+      "hasPositions": true,
+      "trackingUnavailable": false,
+      "phase": "Landed",
+      "hasActualRunwayDepartureTime": true,
+      "hasActualGateDepartureTime": true
+    },
+    "isTracking": false,
+    "isLanded": true,
+    "isScheduled": false,
+    "sortTime": "2020-06-03T18:35:00.000Z",
+    "schedule": {
+      "scheduledDeparture": "2020-06-03T18:35:00.000",
+      "scheduledDepartureUTC": "2020-06-03T18:35:00.000Z",
+      "estimatedActualDepartureRunway": false,
+      "estimatedActualDepartureTitle": "Actual",
+      "estimatedActualDeparture": "2020-06-03T18:31:00.000",
+      "estimatedActualDepartureUTC": "2020-06-03T18:31:00.000Z",
+      "scheduledArrival": "2020-06-03T21:15:00.000",
+      "scheduledArrivalUTC": "2020-06-03T20:15:00.000Z",
+      "estimatedActualArrivalRunway": false,
+      "estimatedActualArrivalTitle": "Actual",
+      "estimatedActualArrival": "2020-06-03T20:57:00.000",
+      "estimatedActualArrivalUTC": "2020-06-03T19:57:00.000Z",
+      "graphXAxis": {
+        "dep": "2020-06-03T18:31:00.000",
+        "depUTC": "2020-06-03T18:31:00.000Z",
+        "arr": "2020-06-03T20:57:00.000",
+        "arrUTC": "2020-06-03T19:57:00.000Z"
+      },
+      "tookOff": "2020-06-03T18:31:00.000"
+    },
+    "status": {
+      "statusCode": "L",
+      "status": "Arrived",
+      "color": "green",
+      "statusDescription": "On time",
+      "delay": {
+        "departure": {
+          "minutes": 0
+        },
+        "arrival": {
+          "minutes": 0
+        }
+      },
+      "delayStatus": {
+        "wording": "On time",
+        "minutes": 0
+      },
+      "lastUpdatedText": "Status Last Updated More Than 3 Hours Ago",
+      "finalStatus": "On Time",
+      "diverted": false
+    },
+    "resultHeader": {
+      "statusDescription": "On time",
+      "carrier": {
+        "name": "Eurowings",
+        "fs": "EW"
+      },
+      "flightNumber": "2465",
+      "status": "Arrived",
+      "diverted": false,
+      "color": "green",
+      "departureAirportFS": "LHR",
+      "arrivalAirportFS": "STR",
+      "divertedAirport": null
+    },
+    "ticketHeader": {
+      "carrier": {
+        "name": "Eurowings",
+        "fs": "EW"
+      },
+      "flightNumber": "2465",
+      "iconURL": "https://d3brl4nqahsb3e.cloudfront.net/logos/png/150x50/ew-logo.png"
+    },
+    "operatedBy": "Operated by Germanwings on behalf of Eurowings",
+    "departureAirport": {
+      "fs": "LHR",
+      "iata": "LHR",
+      "name": "London Heathrow Airport",
+      "city": "London",
+      "state": "EN",
+      "country": "GB",
+      "timeZoneRegionName": "Europe/London",
+      "regionName": "Europe",
+      "gate": "A26",
+      "terminal": "2",
+      "times": {
+        "scheduled": {
+          "time": "6:35",
+          "ampm": "PM",
+          "time24": "18:35",
+          "timezone": "GMT"
+        },
+        "estimatedActual": {
+          "title": "Actual",
+          "time": "6:31",
+          "ampm": "PM",
+          "time24": "18:31",
+          "runway": false,
+          "timezone": "GMT"
+        }
+      },
+      "date": "2020-06-03T18:35:00.000"
+    },
+    "arrivalAirport": {
+      "fs": "STR",
+      "iata": "STR",
+      "name": "Stuttgart Airport",
+      "city": "Stuttgart",
+      "country": "DE",
+      "timeZoneRegionName": "Europe/Berlin",
+      "regionName": "Europe",
+      "gate": null,
+      "terminal": "1",
+      "baggage": null,
+      "times": {
+        "scheduled": {
+          "time": "9:15",
+          "ampm": "PM",
+          "time24": "21:15",
+          "timezone": "CET"
+        },
+        "estimatedActual": {
+          "title": "Actual",
+          "time": "8:57",
+          "ampm": "PM",
+          "time24": "20:57",
+          "runway": false,
+          "timezone": "CET"
+        }
+      },
+      "date": "2020-06-03T21:15:00.000"
+    },
+    "divertedAirport": null,
+    "additionalFlightInfo": {
+      "equipment": {
+        "iata": "31B",
+        "name": "Airbus A319 (sharklets)",
+        "title": "Actual"
+      },
+      "flightDuration": "1h 26m"
+    },
+    "codeshares": [
+      {
+        "fs": "UA",
+        "name": "United Airlines",
+        "flightNumber": "9641"
+      }
+    ],
+    "positional": {
+      "departureAirportCode": "LHR",
+      "arrivalAirportCode": "STR",
+      "divertedAirportCode": null,
+      "flexFlightStatus": "L",
+      "flexTrack": {
+        "flightId": 1027729736,
+        "carrierFsCode": "4U",
+        "flightNumber": "2465",
+        "tailNumber": "D-AKNV",
+        "callsign": "GWI2465",
+        "departureAirportFsCode": "LHR",
+        "arrivalAirportFsCode": "STR",
+        "departureDate": {
+          "dateLocal": "2020-06-03T18:35:00.000",
+          "dateUtc": "2020-06-03T18:35:00.000Z"
+        },
+        "equipment": "31B",
+        "bearing": 117.05686376114645,
+        "heading": 116.84241056065946,
+        "positions": [
+          {
+            "lon": 8.1764,
+            "lat": 49.0382,
+            "speedMph": 386,
+            "altitudeFt": 16689,
+            "source": "derived",
+            "date": "2020-06-03T19:40:08.028Z",
+            "course": 117,
+            "vrateMps": -10
+          },
+          {
+            "lon": 8.0449,
+            "lat": 49.0822,
+            "speedMph": 415,
+            "altitudeFt": 18688,
+            "source": "derived",
+            "date": "2020-06-03T19:39:07.997Z",
+            "course": 117,
+            "vrateMps": -10
+          },
+          {
+            "lon": 7.9027,
+            "lat": 49.1294,
+            "speedMph": 445,
+            "altitudeFt": 20697,
+            "source": "derived",
+            "date": "2020-06-03T19:38:07.628Z",
+            "course": 117,
+            "vrateMps": -10
+          },
+          {
+            "lon": 7.7512,
+            "lat": 49.1795,
+            "speedMph": 474,
+            "altitudeFt": 22695,
+            "source": "derived",
+            "date": "2020-06-03T19:37:07.590Z",
+            "course": 117,
+            "vrateMps": -10
+          },
+          {
+            "lon": 7.5896,
+            "lat": 49.2325,
+            "speedMph": 504,
+            "altitudeFt": 24693,
+            "source": "derived",
+            "date": "2020-06-03T19:36:07.569Z",
+            "course": 117,
+            "vrateMps": -10
+          },
+          {
+            "lon": 7.418,
+            "lat": 49.2885,
+            "speedMph": 534,
+            "altitudeFt": 26691,
+            "source": "derived",
+            "date": "2020-06-03T19:35:07.543Z",
+            "course": 116,
+            "vrateMps": -10
+          },
+          {
+            "lon": 7.236,
+            "lat": 49.3474,
+            "speedMph": 563,
+            "altitudeFt": 28690,
+            "source": "derived",
+            "date": "2020-06-03T19:34:07.500Z",
+            "course": 116,
+            "vrateMps": -10
+          },
+          {
+            "lon": 7.0439,
+            "lat": 49.4091,
+            "speedMph": 593,
+            "altitudeFt": 30688,
+            "source": "derived",
+            "date": "2020-06-03T19:33:07.471Z",
+            "course": 116,
+            "vrateMps": -10
+          },
+          {
+            "lon": 6.8415,
+            "lat": 49.4737,
+            "speedMph": 622,
+            "altitudeFt": 32685,
+            "source": "derived",
+            "date": "2020-06-03T19:32:07.462Z",
+            "course": 116,
+            "vrateMps": -10
+          },
+          {
+            "lon": 6.6314,
+            "lat": 49.5401,
+            "speedMph": 627,
+            "altitudeFt": 33000,
+            "source": "derived",
+            "date": "2020-06-03T19:31:07.414Z",
+            "course": 116,
+            "vrateMps": 0
+          },
+          {
+            "lon": 6.4213,
+            "lat": 49.606,
+            "speedMph": 627,
+            "altitudeFt": 33000,
+            "source": "derived",
+            "date": "2020-06-03T19:30:07.374Z",
+            "course": 116,
+            "vrateMps": 0
+          },
+          {
+            "lon": 6.2107,
+            "lat": 49.6715,
+            "speedMph": 627,
+            "altitudeFt": 33000,
+            "source": "derived",
+            "date": "2020-06-03T19:29:07.371Z",
+            "course": 116,
+            "vrateMps": 0
+          },
+          {
+            "lon": 5.9996,
+            "lat": 49.7366,
+            "speedMph": 627,
+            "altitudeFt": 33000,
+            "source": "derived",
+            "date": "2020-06-03T19:28:07.359Z",
+            "course": 115,
+            "vrateMps": 0
+          },
+          {
+            "lon": 5.7877,
+            "lat": 49.8013,
+            "speedMph": 627,
+            "altitudeFt": 33000,
+            "source": "derived",
+            "date": "2020-06-03T19:27:07.314Z",
+            "course": 115,
+            "vrateMps": 0
+          },
+          {
+            "lon": 5.5753,
+            "lat": 49.8657,
+            "speedMph": 627,
+            "altitudeFt": 33000,
+            "source": "derived",
+            "date": "2020-06-03T19:26:07.263Z",
+            "course": 115,
+            "vrateMps": 0
+          },
+          {
+            "lon": 5.3624,
+            "lat": 49.9297,
+            "speedMph": 627,
+            "altitudeFt": 33000,
+            "source": "derived",
+            "date": "2020-06-03T19:25:07.243Z",
+            "course": 115,
+            "vrateMps": 0
+          },
+          {
+            "lon": 5.149,
+            "lat": 49.9932,
+            "speedMph": 627,
+            "altitudeFt": 33000,
+            "source": "derived",
+            "date": "2020-06-03T19:24:07.227Z",
+            "course": 115,
+            "vrateMps": 0
+          },
+          {
+            "lon": 4.9347,
+            "lat": 50.0564,
+            "speedMph": 627,
+            "altitudeFt": 33000,
+            "source": "derived",
+            "date": "2020-06-03T19:23:07.146Z",
+            "course": 115,
+            "vrateMps": 0
+          },
+          {
+            "lon": 4.7201,
+            "lat": 50.1192,
+            "speedMph": 627,
+            "altitudeFt": 33000,
+            "source": "derived",
+            "date": "2020-06-03T19:22:07.098Z",
+            "course": 114,
+            "vrateMps": 0
+          },
+          {
+            "lon": 4.5049,
+            "lat": 50.1816,
+            "speedMph": 627,
+            "altitudeFt": 33000,
+            "source": "derived",
+            "date": "2020-06-03T19:21:07.070Z",
+            "course": 114,
+            "vrateMps": 0
+          },
+          {
+            "lon": 4.2891,
+            "lat": 50.2436,
+            "speedMph": 627,
+            "altitudeFt": 33000,
+            "source": "derived",
+            "date": "2020-06-03T19:20:07.032Z",
+            "course": 114,
+            "vrateMps": 0
+          },
+          {
+            "lon": 4.0728,
+            "lat": 50.3052,
+            "speedMph": 627,
+            "altitudeFt": 33000,
+            "source": "derived",
+            "date": "2020-06-03T19:19:07.002Z",
+            "course": 114,
+            "vrateMps": 0
+          },
+          {
+            "lon": 3.8561,
+            "lat": 50.3664,
+            "speedMph": 617,
+            "altitudeFt": 32377,
+            "source": "derived",
+            "date": "2020-06-03T19:18:06.992Z",
+            "course": 114,
+            "vrateMps": 6
+          },
+          {
+            "lon": 3.645,
+            "lat": 50.4254,
+            "speedMph": 599,
+            "altitudeFt": 31171,
+            "source": "derived",
+            "date": "2020-06-03T19:17:06.968Z",
+            "course": 114,
+            "vrateMps": 6
+          },
+          {
+            "lon": 3.4396,
+            "lat": 50.4823,
+            "speedMph": 582,
+            "altitudeFt": 29965,
+            "source": "derived",
+            "date": "2020-06-03T19:16:06.928Z",
+            "course": 113,
+            "vrateMps": 6
+          },
+          {
+            "lon": 3.24,
+            "lat": 50.5372,
+            "speedMph": 564,
+            "altitudeFt": 28760,
+            "source": "derived",
+            "date": "2020-06-03T19:15:06.895Z",
+            "course": 113,
+            "vrateMps": 6
+          },
+          {
+            "lon": 3.0461,
+            "lat": 50.59,
+            "speedMph": 546,
+            "altitudeFt": 27553,
+            "source": "derived",
+            "date": "2020-06-03T19:14:06.866Z",
+            "course": 113,
+            "vrateMps": 6
+          },
+          {
+            "lon": 2.8581,
+            "lat": 50.6408,
+            "speedMph": 528,
+            "altitudeFt": 26348,
+            "source": "derived",
+            "date": "2020-06-03T19:13:06.837Z",
+            "course": 113,
+            "vrateMps": 6
+          },
+          {
+            "lon": 2.6756,
+            "lat": 50.6897,
+            "speedMph": 510,
+            "altitudeFt": 25140,
+            "source": "derived",
+            "date": "2020-06-03T19:12:06.724Z",
+            "course": 113,
+            "vrateMps": 6
+          },
+          {
+            "lon": 2.4994,
+            "lat": 50.7366,
+            "speedMph": 492,
+            "altitudeFt": 23935,
+            "source": "derived",
+            "date": "2020-06-03T19:11:06.705Z",
+            "course": 113,
+            "vrateMps": 6
+          },
+          {
+            "lon": 2.329,
+            "lat": 50.7815,
+            "speedMph": 475,
+            "altitudeFt": 22729,
+            "source": "derived",
+            "date": "2020-06-03T19:10:06.661Z",
+            "course": 113,
+            "vrateMps": 6
+          },
+          {
+            "lon": 2.1646,
+            "lat": 50.8246,
+            "speedMph": 457,
+            "altitudeFt": 21523,
+            "source": "derived",
+            "date": "2020-06-03T19:09:06.626Z",
+            "course": 112,
+            "vrateMps": 6
+          },
+          {
+            "lon": 1.0208,
+            "lat": 51.1158,
+            "speedMph": 306,
+            "altitudeFt": 11356,
+            "source": "derived",
+            "date": "2020-06-03T19:00:40.496Z",
+            "course": 112,
+            "vrateMps": 6
+          },
+          {
+            "lon": 0.9142,
+            "lat": 51.1422,
+            "speedMph": 289,
+            "altitudeFt": 10150,
+            "source": "derived",
+            "date": "2020-06-03T18:59:40.454Z",
+            "course": 111,
+            "vrateMps": 6
+          },
+          {
+            "lon": 0.8124,
+            "lat": 51.1673,
+            "speedMph": 280,
+            "altitudeFt": 9474,
+            "source": "derived",
+            "date": "2020-06-03T18:58:40.405Z",
+            "course": 111,
+            "vrateMps": 3
+          },
+          {
+            "lon": 0.7132,
+            "lat": 51.1916,
+            "speedMph": 273,
+            "altitudeFt": 8875,
+            "source": "derived",
+            "date": "2020-06-03T18:57:40.368Z",
+            "course": 111,
+            "vrateMps": 3
+          },
+          {
+            "lon": 0.6166,
+            "lat": 51.2152,
+            "speedMph": 266,
+            "altitudeFt": 8275,
+            "source": "derived",
+            "date": "2020-06-03T18:56:40.356Z",
+            "course": 111,
+            "vrateMps": 3
+          },
+          {
+            "lon": 0.5224,
+            "lat": 51.2381,
+            "speedMph": 259,
+            "altitudeFt": 7676,
+            "source": "derived",
+            "date": "2020-06-03T18:55:40.335Z",
+            "course": 111,
+            "vrateMps": 3
+          },
+          {
+            "lon": 0.4306,
+            "lat": 51.2603,
+            "speedMph": 251,
+            "altitudeFt": 7076,
+            "source": "derived",
+            "date": "2020-06-03T18:54:40.309Z",
+            "course": 111,
+            "vrateMps": 3
+          },
+          {
+            "lon": 0.3414,
+            "lat": 51.2818,
+            "speedMph": 244,
+            "altitudeFt": 6476,
+            "source": "derived",
+            "date": "2020-06-03T18:53:40.251Z",
+            "course": 111,
+            "vrateMps": 3
+          },
+          {
+            "lon": 0.2546,
+            "lat": 51.3027,
+            "speedMph": 237,
+            "altitudeFt": 5876,
+            "source": "derived",
+            "date": "2020-06-03T18:52:40.225Z",
+            "course": 111,
+            "vrateMps": 3
+          },
+          {
+            "lon": 0.1704,
+            "lat": 51.3228,
+            "speedMph": 230,
+            "altitudeFt": 5277,
+            "source": "derived",
+            "date": "2020-06-03T18:51:40.189Z",
+            "course": 111,
+            "vrateMps": 3
+          },
+          {
+            "lon": 0.0887,
+            "lat": 51.3423,
+            "speedMph": 223,
+            "altitudeFt": 4677,
+            "source": "derived",
+            "date": "2020-06-03T18:50:40.174Z",
+            "course": 111,
+            "vrateMps": 3
+          },
+          {
+            "lon": 0.0095,
+            "lat": 51.3611,
+            "speedMph": 215,
+            "altitudeFt": 4077,
+            "source": "derived",
+            "date": "2020-06-03T18:49:40.124Z",
+            "course": 111,
+            "vrateMps": 3
+          },
+          {
+            "lon": -0.0672,
+            "lat": 51.3792,
+            "speedMph": 208,
+            "altitudeFt": 3477,
+            "source": "derived",
+            "date": "2020-06-03T18:48:40.079Z",
+            "course": 111,
+            "vrateMps": 3
+          },
+          {
+            "lon": -0.1414,
+            "lat": 51.3967,
+            "speedMph": 201,
+            "altitudeFt": 2878,
+            "source": "derived",
+            "date": "2020-06-03T18:47:40.053Z",
+            "course": 111,
+            "vrateMps": 3
+          },
+          {
+            "lon": -0.213,
+            "lat": 51.4135,
+            "speedMph": 194,
+            "altitudeFt": 2278,
+            "source": "derived",
+            "date": "2020-06-03T18:46:40.017Z",
+            "course": 111,
+            "vrateMps": 3
+          }
+        ],
+        "irregularOperations": []
+      }
+    },
+    "flightState": "historical"
+  }
+}
